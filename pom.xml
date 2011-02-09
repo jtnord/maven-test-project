@@ -120,6 +120,7 @@
 							<id>enforce-rules</id>
 							<goals>
 								<goal>enforce</goal>
+                                                                <goal>display-info</goal>
 							</goals>
 							<phase>validate</phase>
 							<configuration>
