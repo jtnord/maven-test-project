@@ -53,8 +53,8 @@
 		buildnumber maven plugin so hudson sees a mojo run.
 	-->
 	<scm>
-		<connection>scm:svn:http://127.0.0.1/bogus</connection>
-		<developerConnection>scm:svn:http://127.0.0.1/bogus</developerConnection>
+		<connection>scm:git:https://github.com/jtnord/maven-test-project.git</connection>
+		<developerConnection>scm:git:https://github.com/jtnord/maven-test-project.git</developerConnection>
 	</scm>
 
 	<build>
