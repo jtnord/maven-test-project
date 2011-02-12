@@ -437,4 +437,18 @@
 		</plugins>
 	</reporting>
 
+	<distributionManagement>
+		<repository>
+			<id>release-repo</id>
+			<name>Release Repository</name>
+			<url>file://{java.io.tmpdir}/maven_repo/release</url>
+		</repository>
+		<!-- use the following if you ARE using a snapshot version. -->
+		<snapshotRepository>
+			<id>snapshot-repo</id>
+			<name>Snapshot Repository</name>
+			<url>file://{java.io.tmpdir}/maven_repo/snapshot</url>
+		</snapshotRepository>
+	</distributionManagement>
+
 </project>
